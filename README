@@ -1,0 +1,4 @@
+in the container, /etc/nginx/certs is already a volume
+specified in the Dockerfile.  
+To add certs, manually copy them into the container,
+and theyshould persist in a local volume, i think?
